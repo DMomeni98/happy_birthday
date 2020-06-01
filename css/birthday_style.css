@@ -1,0 +1,42 @@
+body {
+    background-image: url('../img/background.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: black;
+    /* height: auto; */
+
+    background-size: cover;
+    background-attachment: fixed;
+    align-items: center;
+    /* opacity: 0.5; */
+
+  }
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  
+  .video{
+    width: 100%;
+    height: auto;
+  }
+
+  .swal-overlay {
+    background-color: rgba(43, 165, 137, 0.45);
+  }
+
+  .swal-modal {
+    /* background-color: rgba(162, 240, 240, 0.45); */
+    /* background-image: url('box.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; */
+    border: 3px solid white;
+  }
+
+  .swal-icon img{
+    width: 400px;
+    height: 400px;
+  }
